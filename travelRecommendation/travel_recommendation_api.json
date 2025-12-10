@@ -6,7 +6,7 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "sydney.jpg",
+          "imageUrl": "images/sydney.jpg",
           "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
         },
         {
@@ -27,7 +27,7 @@
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "kyoto.jpg",
+          "imageUrl": "images/kyoto.jpg",
           "description": "Known for its historic temples, gardens, and traditional tea houses."
         }
       ]
