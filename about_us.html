@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us – Michelle Travel Explorer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Navbar -->
   <header class="navbar">
     <div class="brand">Michelle Travel Explorer</div>
     <nav>
@@ -13,18 +15,47 @@
       <a href="about.html">About Us</a>
       <a href="contact.html">Contact Us</a>
     </nav>
+    <div class="search-area">
+      <input type="text" id="searchInput" placeholder="Search destinations...">
+      <button id="search-btn">Search</button>
+      <button id="reset-btn">Clear</button>
+    </div>
   </header>
 
+  <!-- About Content -->
   <main class="about">
-    <h1>About Our Company</h1>
-    <p>We help travelers quickly discover curated destinations around the world.</p>
+    <div class="about-content">
+      <section class="hero-section">
+        <h1>About Michelle Travel Explorer</h1>
+        <p>Curated travel recommendations powered by real expertise and stunning destinations.</p>
+      </section>
 
-    <h2>Our Team</h2>
-    <ul class="team">
-      <li><strong>Michelle Vance</strong> – Founder & Lead Developer</li>
-      <li><strong>Alex Rivera</strong> – UX Designer</li>
-      <li><strong>Jordan Lee</strong> – Travel Researcher</li>
-    </ul>
+      <section class="team-section">
+        <h2>Our Expert Team</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <h3>Michelle Vance</h3>
+            <p class="role">Founder & Lead Developer</p>
+            <p>Full-stack developer building innovative travel solutions with Google Ads expertise and custom web design.</p>
+          </div>
+          <div class="team-member">
+            <h3>Alex Rivera</h3>
+            <p class="role">UX Designer</p>
+            <p>Creating intuitive interfaces that make travel planning effortless and enjoyable.</p>
+          </div>
+          <div class="team-member">
+            <h3>Jordan Lee</h3>
+            <p class="role">Travel Researcher</p>
+            <p>World traveler discovering hidden gems and authentic experiences worldwide.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission-section">
+        <h2>Our Mission</h2>
+        <p>Empowering travelers with personalized recommendations that match their interests, budget, and adventure style.</p>
+      </section>
+    </div>
   </main>
 </body>
 </html>
